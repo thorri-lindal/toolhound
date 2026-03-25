@@ -45,7 +45,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename="/skurinn">
+      <BrowserRouter basename="/">
         <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-900 transition-colors">
           <Navbar />
           <main className="flex-1 flex flex-col">
